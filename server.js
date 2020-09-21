@@ -5,7 +5,7 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 
 const mongoose = require('mongoose')
-mongoose.connect("mongodb+srv://mk_69:69mk69@cluster0-ju3qn.mongodb.net/excersiceDB",
+mongoose.connect("dbaddress",
                  { useNewUrlParser: true,useUnifiedTopology:true },function(err){
   if(err){
     console.log(err)
